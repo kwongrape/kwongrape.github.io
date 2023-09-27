@@ -7,12 +7,61 @@ main_nav: true
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+<style>
+.profile-container {
+  display: flex;
+  flex-direction: column; /* Change to a column layout for better alignment */
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+.profile-text {
+  font-size: 16px; /* Reduced font size for better readability */
+  margin: 10px 0;
+}
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+.profile-text p:first-child {
+  font-weight: bold;
+  font-size: 18px; /* Slightly larger font for the first paragraph */
+}
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+.profile-text p strong {
+  font-weight: bold;
+}
+
+/* Add padding to the list items for better spacing */
+.profile-container ul li {
+  padding: 10px 0;
+}
+
+</style>
+
+<div class="profile-container">
+  <div class="profile-text">
+    <p>Information</p>
+    <p>Name: Kyoung Pyo Kwon</p>
+    <p>Education and Training</p>
+    <p>2017.03 ~ 2023.03 (Bachelor's degree)</p>
+    <p>Sun Moon University, Asan, Republic of Korea</p>
+    <p>Department of Pharmaceutical Engineering and Biotechnology</p>
+  </div>
+  <div class="profile-text">
+    <p>Experience</p>
+    <p>Paper: Pardhe, B. D., <strong>Kwon, K. P.</strong>, Park, J. K., Lee, J. H., & Oh, T.-J. (2023, January 31). H2O2-Driven Hydroxylation of Steroids Catalyzed by Cytochrome P450 CYP105D18: Exploration of the Substrate Access Channel. (H. Atomi, Ed.), Applied and Environmental Microbiology. American Society for Microbiology. <a href="https://doi.org/10.1128/aem.01585-22">(2nd author)</a></p>
+    <p>Conference: test</p>
+    <p>Competition: test</p>
+  </div>
+</div>
+
+<!-- Add more experience items as needed -->
+<h2>Additional Experience</h2>
+<ul>
+  <li>
+    <p><em>Paper: Test</em></p>
+    <p>Description: Test</p>
+  </li>
+  <!-- Add more items here -->
+</ul>

@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ilovegrape</title>
+    <title>i love grape</title>
     <description>A simple yet classy theme for your Jekyll website or blog.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Sep 2023 17:27:17 +0900</pubDate>
-    <lastBuildDate>Tue, 26 Sep 2023 17:27:17 +0900</lastBuildDate>
+    <pubDate>Wed, 27 Sep 2023 18:06:01 +0900</pubDate>
+    <lastBuildDate>Wed, 27 Sep 2023 18:06:01 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Pymol tutorial 1 : open source pymol install</title>
+        <description>&lt;h1 id=&quot;pymol&quot;&gt;pymol&lt;/h1&gt; &lt;p&gt;python 기반의 분자 구조 뷰어 프로그램&lt;/p&gt; &lt;h1 id=&quot;prerequest&quot;&gt;prerequest&lt;/h1&gt; &lt;p&gt;anaconda3 openbabel (openbabel 미설치시 pymol 설치 안되는 문제 존재)&lt;/p&gt; &lt;h1 id=&quot;install-code&quot;&gt;install code&lt;/h1&gt; &lt;p&gt;conda install -c conda-forge pymol-open-source&lt;/p&gt; &lt;h1 id=&quot;exec&quot;&gt;exec&lt;/h1&gt; &lt;p&gt;anaconda...</description>
+        <pubDate>Sat, 02 Sep 2023 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/tutorial-pymol/2023/09/02/tutorial-pymol-1-install.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorial-pymol/2023/09/02/tutorial-pymol-1-install.html</guid>
+        
+        <category>pymol</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>tutorial-pymol</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
